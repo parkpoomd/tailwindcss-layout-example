@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import KanbanBoard from '../views/KanbanBoard.vue';
 import TuplePricingPage from '../views/TuplePricingPage.vue';
+import InboxUi from '../views/InboxUi.vue';
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/tuple-pricing-page',
     name: 'TuplePricingPage',
     component: TuplePricingPage
+  },
+  {
+    path: '/inbox-ui',
+    name: 'InboxUi',
+    component: InboxUi
   }
 ];
 
